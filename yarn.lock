@@ -893,6 +893,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@camwiegert/typical@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@camwiegert/typical/-/typical-0.1.1.tgz#c75d3b658e2f542d113c3e266389794c7dc45d6d"
+  integrity sha512-4xAtH3F3uJ8boe9IPahdYFCBELmyOBwHGAn0rDO6C1rx0TuZb5f4UqfuiOQF7YiMJGCOsUIW7LyucMNnVQYsRg==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -8224,6 +8229,13 @@ react-scripts@3.2.0:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.0.7"
+
+react-typical@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-typical/-/react-typical-0.1.2.tgz#e9d06e7e91c2d7468a40638c50655565019a013d"
+  integrity sha512-Jpo6eSy1HeAUv81K07DZgpxB7OEAsJ4Dsfd7tOS6mT3RO+xotb8umBqtSnHCm+vPFG6dpTXg/sv8T7oIjw/WZA==
+  dependencies:
+    "@camwiegert/typical" "^0.1.1"
 
 react@^16.11.0:
   version "16.11.0"
