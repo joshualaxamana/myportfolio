@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.css';
+import { BrowserRouter as Router} from 'react-router-dom';
+
+ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
 
 function App() {
   return (
