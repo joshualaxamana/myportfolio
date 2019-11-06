@@ -5,7 +5,11 @@ import './App.css';
 import { BrowserRouter as Router} from 'react-router-dom';
 import Typical from 'react-typical';
 
-ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
+ReactDOM.render(
+  <Router basename={process.env.PUBLIC_URL}>
+    < App />
+  </Router>, document.getElementById('root')
+  );
 
 function App() {
   return (
